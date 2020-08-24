@@ -1,0 +1,43 @@
+:root {
+	/*--exi-c-main: #515d26;*/
+	/*--exi-c-accent: #6b7732;*/
+	/*--exi-c-light: #bdc94b;*/
+	/*--exi-c-faint: #d6ddb1;*/
+	/*--exi-c-super-faint: #e8eedf;*/
+	/*--exi-c-medium-light: #818d40;*/
+	/*--exi-c-dark: #3e451b;*/
+	/*--exi-c-white: #f9f9f9;*/
+	/*--exi-c-foreground: #333333;*/
+
+	/* Season 2 */
+	/*--exi-c-main: #22650f;*/
+	/*--exi-c-accent: #2e7a21;*/
+	/*--exi-c-light: #6ea844;*/
+	/*--exi-c-faint: #c7dec0;*/
+	/*--exi-c-super-faint: #d7eecf;*/
+	/*--exi-c-medium-light: #509f3d;*/
+	/*--exi-c-dark: #194c09;*/
+
+	/* Season 3 */
+	--exi-c-main: #FFAA00;
+	--exi-c-accent: #ffa800;
+	--exi-c-light: #ffc24b;
+	--exi-c-faint: #ffcf71;
+	--exi-c-super-faint: #fff3dc;
+	--exi-c-medium-light: #efaa3e;
+	--exi-c-dark: #e59900;
+
+
+	--exi-c-white: #f9f9f9;
+	--exi-c-foreground: #333333;	
+
+	--exi-header-height: 400px;
+	--exi-header-height-mobile: 96px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--exi-c-white: #45464d;
+		--exi-c-foreground: #f9f9f9;
+	}
+}

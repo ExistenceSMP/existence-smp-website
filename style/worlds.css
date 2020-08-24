@@ -1,0 +1,74 @@
+
+.worlds {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-gap: 20px;
+}
+
+.world {
+	padding: 8px;
+	background: var(--exi-c-faint);
+	transition: background 150ms;
+	color: white;
+}
+.world:hover {
+	background: var(--exi-c-main);
+}
+
+.world .worldTop {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	min-height: 64px;
+}
+.world .seasonLogo {
+	width: 100%;
+}
+
+.worldTopMeta .title {
+	margin-top: 4px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.world .meta {
+	font-size: 10pt;
+	font-weight: 100;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.world .meta > * {
+	display: flex;
+	margin-bottom: 0;
+}
+.world .map a {
+	color: var(--exi-c-white);
+	font-weight: bold;
+	text-decoration: none;
+}
+.world .meta > * + *:before {
+	content: "•";
+	display: block;
+	margin: 0 10px;
+}
+.world .worldImage img {
+	width: 100%;
+	margin: 10px 0;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	display: block;
+}
+
+.world p a {
+	color: var(--exi-c-white) !important;
+}
+.world .worldDescription p:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+	.worlds {
+		grid-template-columns: 100%;
+	}
+}

@@ -1,0 +1,54 @@
+.exi-member-card.mdl-card {
+    width: 180px;
+    z-index: 1;
+}
+
+.exi-member-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../images/members/mcpeachpies.png') center / cover;
+}
+
+.exi-member-card > .mdl-card__menu {
+    color: #fff;
+}
+
+.exi-member-card .mdl-card__title {
+    padding: 10px;
+    text-shadow: 1px 1px #353535;
+}
+
+.exi-member-card {
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    height: 224px;
+}
+
+ion-icon {
+    color: white;
+}
+
+.mdl-card__menu a {
+    text-decoration: none;
+}
+
+.mdl-chip.exi-join {
+    float: right;
+    background-color: var(--exi-c-medium-light);
+    margin-top: 24px;
+}
+
+.mdl-chip.exi-join .mdl-chip__text {
+    font-size: 10pt;
+    font-weight: 300;
+    color: white;
+}
+
+.exi-join:hover, .exi-join span:hover {
+    cursor: default;
+}
+
+.exi-join span:hover::after {
+    content: ' – Apply via Discord';
+}
