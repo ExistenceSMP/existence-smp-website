@@ -33,7 +33,7 @@ const members = [
 	{
 		"name": "DuoGetsRekt",
 		"link": "https://twitter.com/DuoGetsRekt",
-		"creator": "true",
+		"creator": true,
 		"icon": "/images/creators/duo.png",
 		"twitter": "https://twitter.com/DuoGetsRekt",
 		"youtube": "https://www.youtube.com/channel/UCKE4ADQvPVszDoE1DA3bSWQ",
@@ -154,7 +154,7 @@ const members = [
 	{
 		"name": "Noahh__",
 		"link": "https://www.youtube.com/channel/UC4FpYZdkeNHW4U_l-srit8w",
-		"creator": true,
+		"creator": false,
 		"icon": "/images/creators/noah.jpg",
 		"twitch": "https://www.twitch.tv/noahlot",
 		"twitter": "https://twitter.com/kindabland/"
