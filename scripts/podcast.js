@@ -215,7 +215,14 @@ const podcasts = [
         url: 'https://youtu.be/si7XLuiLvew',
         date: '1 August 2020',
         members: ['mcpeachpies', 'iGalaxy', 'KSores', 'Noahh__'],
-	}
+	},
+    {
+        name: 'First look at the CAVE UPDATE!',
+        description: 'Minecraft LIVE 2020 brought HUGE news for the massively requested Cave Update! Join us in recapping Minecraft LIVE and the first look at what to expect with Minecraft 1.17, the Caves & Cliffs update',
+        url: 'https://youtu.be/qejl1ICnc3Q',
+        date: '5 October 2020',
+        members: ['mcpeachpies', 'Acg 1000', 'kitkatw321', 'iGalaxy', 'ItsPurpleJay', 'Dr_Little', 'Telx']
+    }
 ];
 
 $(document).ready(function () {
@@ -246,7 +253,7 @@ $(document).ready(function () {
 
             result += `
                         <div class="exi-chip" onclick="window.open('${info.link}');">
-                            <div class="head"><img src="/images/members/${memberName}.png"></div>
+                            <div class="head"><img src="/images/members/${memberName}.png" onerror="this.src = 'https://mcpeachpies.com/tools/skin-viewer/assets/head.php/?s=20&u=${memberName}'"></div>
                             <div class="name">${memberName}</div>
                         </div>`;
         }
