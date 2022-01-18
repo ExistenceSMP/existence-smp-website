@@ -1,4 +1,4 @@
-const KNOWN_PAGES = ["home", "members", "videos", "podcast", "downloads", "server", "serverkeystone", "404", "rules", "worlds", "creators"];
+const KNOWN_PAGES = ["home", "members", "videos", "podcast", "downloads", "server", "serverkeystone", "serveramplified", "404", "rules", "worlds", "creators"];
 
 
 const members = [
